@@ -1129,6 +1129,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-flow"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed7b58a152578a5b1caf660f2fcc2d0989cfa7fa2f1224a9b4c829b87bc5aba3"
+dependencies = [
+ "dioxus",
+ "futures-timer",
+ "gloo-timers",
+ "web-time",
+]
+
+[[package]]
 name = "dioxus-fullstack"
 version = "0.7.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1803,6 +1815,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cd417de3d1d015fc3bfd2b1ea46dfc7bab72ef86f1cc7cc9c78e728b34a6d1fd"
 
 [[package]]
+name = "futures-timer"
+version = "3.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af43fadb8a98512d547e37b4e92e0ced13e205c061b87b4623eff01d918d6968"
+
+[[package]]
 name = "futures-util"
 version = "0.3.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2266,6 +2284,7 @@ name = "hot_dog"
 version = "0.1.0"
 dependencies = [
  "dioxus",
+ "dioxus-flow",
 ]
 
 [[package]]

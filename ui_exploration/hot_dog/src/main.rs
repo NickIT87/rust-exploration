@@ -1,5 +1,4 @@
-// mod guide_rsx;
-mod flow_demo;
+mod ui_showcase;
 
 // const FAVICON: Asset = asset!("/assets/favicon.ico");
 // const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -7,7 +6,8 @@ mod flow_demo;
 // const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
 
 // use crate::guide_rsx::App;
-use crate::flow_demo::App;
+// use crate::flow_demo::App;
+use crate::ui_showcase::App;
 
 fn main() {
     dioxus::launch(App);
